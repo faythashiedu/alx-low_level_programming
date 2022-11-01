@@ -5,10 +5,10 @@
  * @s: the string to be searched
  * @accept: the prefix to be measured
  *
- * Return: the number of bytes 
+ * Return: the number of bytes
  */
 
-unsigned int _string(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int bytes = 0;
 	int index;
