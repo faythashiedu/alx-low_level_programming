@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "lists.h"
@@ -14,6 +15,7 @@ unsigned int _strlen(char *str)
 	unsigned int i;
 
 	for (i = 0; str[i]; i++)
+		;
 		return (i);
 }
 
