@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 /**
- * myStartupFun - Apply the constructor attribute to myStartupFun() so that it
+ * hare - printst the string
  * is executed before main()
  *
  */
-
-void __attribute__ ((constructor)) hare(void);
+void hare(void) __attribute__ ((constructor));
 
 /**
- * myStartupFun - implementation of myStartupFun
+ * hare - implementation of hare function
  */
 
 void hare(void)
