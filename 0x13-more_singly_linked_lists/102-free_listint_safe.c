@@ -61,7 +61,7 @@ size_t free_listint_safe(listint_t **head)
 	free(*head);
 	*head = next;
 	}
-	
+
 	free(list);
 	return (num);
-}	
+}
